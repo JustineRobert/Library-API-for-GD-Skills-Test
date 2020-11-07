@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "This is a small, limited, end-to-end library API",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Igune Justine Robert",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "pg": "^8.4.2"
+  }
+}
