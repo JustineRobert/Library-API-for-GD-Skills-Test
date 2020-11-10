@@ -98,7 +98,7 @@ app.delete("/api/v1/books/:id", async (req, res) => {
     });
 
   } catch {
-    console(err);
+    console.log(err);
   }
 });
 
